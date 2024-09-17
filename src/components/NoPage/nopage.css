@@ -1,0 +1,39 @@
+.noPage {
+    background-color: lightgray;
+    height: 90.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.noPage>.section {
+    background-color: white;
+    border-radius: 5px;
+    padding: 1rem;
+    width: 40rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.noPage>.section>h2 {
+    font-size: 1.5rem;
+}
+
+.noPage>.section>.linktag {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    background-color: skyblue;
+    padding: .5rem 1rem;
+    border-radius: 20px;
+}
+
+.noPage>.section>.linktag:hover {
+    color: white;
+    background-color: black;
+}

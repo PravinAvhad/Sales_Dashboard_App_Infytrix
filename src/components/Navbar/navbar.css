@@ -1,0 +1,71 @@
+.navbar {
+    background-color: skyblue;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar>.navsection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    max-width: 1280px;
+    width: 100%;
+    padding: 1rem;
+}
+
+.navbar>.navsection>.logosection {
+    width: 50%;
+}
+
+.navbar>.navsection>.logosection>.logo {
+    text-decoration: none;
+    color: black;
+    font-size: 1.9rem;
+    font-weight: bolder;
+}
+
+.navbar>.navsection>.linksection {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+}
+
+.navbar>.navsection>.linksection>.links {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.navbar>.navsection>.linksection>.links:hover,
+.navbar>.navsection>.logosection>.logo:hover {
+    color: white;
+}
+
+@media (max-width:800px) {
+    .navbar>.navsection>.logosection>.logo {
+        font-size: 1.6rem;
+    }
+
+    .navbar>.navsection>.linksection>.links {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width:450px) {
+    .navbar>.navsection {
+        padding: .5rem;
+    }
+
+    .navbar>.navsection>.logosection>.logo {
+        font-size: 1.3rem;
+    }
+
+    .navbar>.navsection>.linksection>.links {
+        font-size: 1.1rem;
+    }
+}
